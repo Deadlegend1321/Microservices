@@ -1,5 +1,17 @@
 # Spring Microservices Project
-Project to work on Services, Docker and Kubernetes.
+Currency exchange and currency conversion microservices are a common component in financial systems that facilitate the conversion of one currency to another based on prevailing exchange rates. In this overview, we'll explore how such microservices can be implemented using Netflix Eureka, API Gateway, Docker, and Kubernetes.
+
+#### Netflix Eureka:
+Netflix Eureka is a service registry that enables microservices to discover and communicate with each other in a distributed system. In the context of currency exchange microservices, Eureka can be used to register and locate the currency exchange and conversion services. Each microservice registers itself with Eureka, which maintains a dynamic registry of available services, allowing other services to discover and interact with them.
+
+#### API Gateway:
+An API Gateway acts as a single entry point for clients to access various microservices. It provides a unified interface, authentication, authorization, load balancing, caching, and other cross-cutting concerns. In the case of currency exchange and conversion microservices, the API Gateway can expose a consolidated set of APIs that handle currency conversion requests and route them to the appropriate microservice based on the requested currency pair.
+
+#### Docker:
+Docker is a containerization platform that enables packaging applications and their dependencies into lightweight, portable containers. By containerizing currency exchange and conversion microservices using Docker, you can ensure consistency and reproducibility across different environments. Each microservice can be packaged as a separate Docker container, which includes the necessary runtime, dependencies, and configurations.
+
+#### Kubernetes:
+Kubernetes is an orchestration platform for managing containerized applications. It simplifies the deployment, scaling, and management of microservices across a cluster of machines. With Kubernetes, you can define and manage the desired state of your currency exchange and conversion microservices, scale them based on demand, and ensure high availability and fault tolerance.
 
 
 # Tech
