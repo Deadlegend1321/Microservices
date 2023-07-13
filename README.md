@@ -45,7 +45,7 @@ Added different folder(Kubernetes) of basic currency exchange and conversion ser
 **From 1st October 2023 these links will not work as the free trial of Google Cloud will end.**
 
 # Links
-(http://35.224.147.163:8000/currency-exchange/from/USD/to/INR)
+(http://35.224.147.163:8000/currency-exchange/from/USD/to/INR) "You can also use AUD to INR or EUR to INR"
 
 (http://34.123.39.118:8100/currency-conversion-feign/from/AUD/to/INR/quantity/10)
 
