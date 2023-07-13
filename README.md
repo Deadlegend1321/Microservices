@@ -46,8 +46,12 @@ Added different folder(Kubernetes) of basic currency exchange and conversion ser
 
 # Links
 (http://35.224.147.163:8000/currency-exchange/from/USD/to/INR) "You can also use AUD to INR or EUR to INR"
-
 (http://34.123.39.118:8100/currency-conversion-feign/from/AUD/to/INR/quantity/10)
+
+# Screenshots
+![Screenshot 2023-07-13 192259](https://github.com/Deadlegend1321/Microservices/assets/51445048/3f13aae0-d727-46a2-9337-ac3bbe6bbf3f)
+![Screenshot 2023-07-13 192333](https://github.com/Deadlegend1321/Microservices/assets/51445048/81c6d954-e6ba-444f-9b39-2e0edead8b6d)
+![use](https://github.com/Deadlegend1321/Microservices/assets/51445048/1724c4f6-c4c9-48a8-9b3a-8ae59a8cea06)
 
 # Docker Images
 #### Spring Microservice
