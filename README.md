@@ -25,7 +25,7 @@ Kubernetes is an orchestration platform for managing containerized applications.
 #### Kubernetes Interaction : Google Cloud SDK Shell & Kubectl (Version 5.0.1)
 
 # Features & Tools
-#### Used Feign Framework to reduce boilerplate code in calling different microservices from a microservice intrinsically.
+#### Used Feign Library to reduce boilerplate code in calling different microservices from a microservice intrinsically.
 #### All Microservices will register through service registry to discover what instances of microservices are present to interact with the demanding services.
 #### To implement all the common features of each microservice at one place created a API Gateway.
 #### Connected API Gateway to Eureka so that it can discover any services present.
